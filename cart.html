@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB icon -->
+    
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/single.css" />
+    <link rel="stylesheet" href="css/shop.css">
+  </head>
+  <body>
+    <!--Navbar -->
+    <nav class="p-4 navbar">
+      <div class="container">
+        <!-- Search form -->
+        <form
+          class="
+            form-inline
+            d-flex
+            justify-content-center
+            md-form
+            form-sm
+            mt-0
+            my-auto
+          "
+        >
+          <i class="fas fa-search" aria-hidden="true"></i>
+          <input
+            class="form-control form-control-sm ml-3 w-75"
+            type="text"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </form>
+        <h1 class="m-auto hii"><a href="">Ahmed Yasin</a></h1>
+        <a href="" class="icon-color"><i class="fas fa-user mr-3"></i></a>
+        <a href="" class="icon-color"><i class="far fa-heart mr-3"></i></a>
+        <a href="" class="icon-color"
+          ><i class="fas fa-shopping-cart mr-3"></i
+        ></a>
+      </div>
+    </nav>
+    <!--Navbar2 -->
+    <div class="MAR">
+      <span><a href="index.html" class="div2">HOME</a></span>
+      <span><a href="ABOUT.html" class="div2">ABOUT</a></span>
+      <span><a href="shop.html" class="div2">SHOP</a></span>
+      <span><a href="" class="div2">CATALOGUE</a></span>
+      <span><a href="" class="div2">NEW ARRIVALS</a></span>
+      <span><a href="" class="div2">CONTACT</a></span>
+    </div>
+
+    <div class="sec1">
+      <h1 class="container">HOME / ABOUT</h1>
+    </div>
+
+    <section class="tabl container">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Total</td>
+            <td>Remove</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="img/cloth_1.jpg" width="180px" alt="" /></td>
+            <td><h5>Top UP Shirt</h5></td>
+            <td><h3>$49.00</h3></td>
+            <td>
+              <div class="def-number-input number-input safari_only">
+                <button
+                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                  class="minus"
+                ></button>
+                <input
+                  class="quantity"
+                  min="0"
+                  name="quantity"
+                  value="1"
+                  type="number"
+                />
+                <button
+                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                  class="plus"
+                ></button>
+              </div>
+            </td>
+            <td><h3>$49.00</h3></td>
+            <td class="btn btn3">-</td>
+          </tr>
+          <tr>
+            <td><img src="img/cloth_3.jpg" width="180px" alt="" /></td>
+            <td><h5>Polo Shirt</h5></td>
+            <td><h3>$49.00</h3></td>
+            <td>
+              <div class="def-number-input number-input safari_only">
+                <button
+                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                  class="minus"
+                ></button>
+                <input
+                  class="quantity"
+                  min="0"
+                  name="quantity"
+                  value="1"
+                  type="number"
+                />
+                <button
+                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                  class="plus"
+                ></button>
+              </div>
+            </td>
+            <td><h3>$49.00</h3></td>
+            <td class="btn btn3">-</td>
+          </tr>
+          <tr></tr>
+        </tbody>
+      </table>
+
+      <article class="container hei">
+        <div class="row">
+          <div class="col-6">
+            <div class="d-flex  ">
+              <div class="btn go">UPDATE CARD</div>
+              <div class="goo"><a>CONTINUE SHOPPING</a></div>
+            </div>
+                      <div class=" top">
+            <h4>Coupon</h4>
+            <h5>Inter Your Coupon Code If You have One</h5>
+          </div>
+          <div class="d-flex top2">
+            <input class="form-control form-control-lg" type="text" placeholder="Coupon Code">
+            <div class="btn">Aplly Copoun</div>
+          </div>
+          </div>
+
+
+          <div class="col-3"></div>
+          <div class="col-3">
+            <div class=" ">
+                <h4 class="h55">CART TOTAL</h4>
+                <div class="row ">
+                  <div class="col-6 ">
+                    <h5 class="blac">Subtotal</h5>
+                    <h5 class="blac">Total</h5>
+                  </div>
+                  <div class="col-6 ">
+                    <h5 class="blac">$230.00</h5>
+                    <h5 class="blac">$230.00</h5>
+                  </div>
+                  <a href="checkout.html" class="btn coo"><h2> PROCEED TO CHECKOUT</h2></a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1>Navigations</h1>
+          <div class="row">
+            <div class="col-4">
+              <ul class="list-unstyled">
+                <li><a href="">Sell Online</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Shopping Cart</a></li>
+                <li><a href="">Store Builder</a></li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <ul class="list-unstyled">
+                <li><a href="">Mobile commerce</a></li>
+                <li><a href="">DropShipping</a></li>
+                <li><a href="">Website Development</a></li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <ul class="list-unstyled">
+                <li><a href="">Point Of Sale</a></li>
+                <li><a href="">Hardware</a></li>
+                <li><a href="">Software</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <h1>Promo</h1>
+          <img src="img/hero_1.jpg" class="w-100 h-70" />
+          <h2>Finding Your Perfect Shoes</h2>
+          <a href="">Promo From July 2 ___ 5,2021</a>
+        </div>
+        <div class="col-3">
+          <h1>Contact Info.</h1>
+          <i class="fas fa-map-marker-alt fa-1x"></i><a>Rashid,Albhira,EGYPT</a>
+          <br />
+          <i class="fas fa-phone-alt fa-1x"></i> <a> +20 1149169744</a>
+          <br />
+          <i class="fas fa-envelope fa-1x"></i
+          ><a>ahmed1151250354amar@gmail.com</a>
+          <br />
+          <br />
+          <h1>Subscribe</h1>
+          <br />
+          <div class="emai">
+            <input type="email" placeholder="Email" class="son" />
+            <input type="submit" placeholder="SEND" class="sen" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <span><h1>© 2020 Copyright:Ahmed Yasin Amar</h1></span>
+
+    <!-- End your project here-->
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript">
+      var a = document.getElementById("disc-50");
+      a.onclick = function () {
+        Clipboard_CopyTo("T9TTVSQB");
+        var div = document.getElementById("code-success");
+        div.style.display = "block";
+        setTimeout(function () {
+          document.getElementById("code-success").style.display = "none";
+        }, 900);
+      };
+
+      function Clipboard_CopyTo(value) {
+        var tempInput = document.createElement("input");
+        tempInput.value = value;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+      }
+    </script>
+  </body>
+</html>

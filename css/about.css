@@ -1,0 +1,61 @@
+.sec1 {
+  width: 100%;
+  height: 50px;
+  background-color: #e0e0e0;
+}
+.sec1 h1 {
+  position: relative;
+  top: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.lion h3 {
+  font-weight: 800;
+}
+.lion p {
+  font-family: "Cairo", sans-serif;
+  color: #757575;
+}
+.borderbottom {
+  margin-left: 0;
+}
+.lion {
+  position: relative;
+  left: 50px;
+}
+.sharta {
+  border-bottom: #7971ea 2px solid;
+  width: 50px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.sec2 {
+  width: 100%;
+  height: 550px;
+}
+.sec2 img {
+  border-radius: 15px;
+}
+.circle img {
+  border-radius: 50%;
+}
+.circle h1 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 300;
+}
+.circle h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #9e9e9e;
+}
+.circle p {
+  font-family: "Cairo", sans-serif;
+  color: #757575;
+  text-align: center;
+}
+.circle {
+  margin-bottom: 50px;
+  height: 500px;
+  border-bottom: 1px #bdbdbd solid;
+}

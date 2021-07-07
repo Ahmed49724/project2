@@ -1,0 +1,46 @@
+.categori {
+  border: 2px #bdbdbd solid;
+  border-radius: 5px;
+  height: 180px;
+  padding: 10px;
+}
+.price h5 {
+  position: relative;
+  left: 50px;
+}
+.boo {
+  margin-right: -10px;
+}
+.booo {
+  margin-right: -10px;
+}
+.colo {
+  border: 2px #bdbdbd solid;
+  border-radius: 5px;
+  height: 600px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.arbaat {
+  margin-top: 80px;
+}
+.shartaa {
+  text-align: center;
+}
+.bot {
+  margin-bottom: 50px;
+  border-bottom: 1px #bdbdbd solid;
+  margin-top: 50px;
+}
+.h55 {
+  font-size: 23px;
+  font-weight: 500;
+  font-family: "Cairo", sans-serif;
+}
+
+.class h5 {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Cairo", sans-serif;
+  color: #757575;
+}

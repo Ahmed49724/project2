@@ -1,0 +1,87 @@
+.btn3 {
+    width: 50px;
+    margin-top: 20px;
+}
+.btn2 {
+    background-color: #7971ea;
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+  .btn2:hover {
+    transform: translate(0, -4px);
+  }
+  .goo {
+    background-color: none;
+    border: #7971ea 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    height: 45px;
+    width: 300px;
+    margin-top: 7px;
+    text-align: center;
+    color: #7971ea;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 0;
+     
+
+  }
+  .go {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+
+  }
+  .form-control{
+      width: 310px;
+      margin-top: 5px;
+  }
+  .top{
+      margin-top: 50px;
+  }
+  .top2{
+    margin-top: 20px;
+}
+.h55 {
+  font-size: 23px;
+  font-weight: 500;
+  font-family: "Cairo", sans-serif;
+  border-bottom: 1px #757575 solid;
+  margin-bottom: 30px;
+}
+
+
+
+.coo h2 {
+  font-size: 17px;
+  color: white;
+  font-weight: 300;
+}
+.coo {
+  margin-top: 40px;
+}
+.blac {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Cairo", sans-serif;
+  color:black;
+  margin-top: 20px;
+}
+.hei {
+  height: 350px;
+  margin-bottom: 80px;
+}
+.borde {
+  border:  1px #d1d1d1 solid;
+  padding: 30px;
+  color: #757575;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Cairo", sans-serif;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.borde a {
+  color:#7971ea ;
+}

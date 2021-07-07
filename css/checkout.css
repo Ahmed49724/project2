@@ -1,0 +1,42 @@
+input {
+    padding: 8px;
+    margin-top: 11px;
+    border: 1px #BDBDBD solid;
+    border-radius: 5px;
+}
+.form {
+    border: 1px #BDBDBD solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+textarea {
+    border: 1px #BDBDBD solid;
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+}
+.coupon {
+    border: 1px #BDBDBD solid;
+    border-radius: 5px;
+    margin-top: 60px;
+    padding: 20px;
+
+}
+.your_order h3 {
+    border: 1px #BDBDBD solid;
+    border-radius: 2px;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px;
+    margin-top: 20px;
+    color: #7971ea;
+
+}
+label{
+    font-size: 18px;
+    font-weight: 400;
+
+}
